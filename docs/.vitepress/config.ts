@@ -1,7 +1,7 @@
 import { defineConfig } from '../../src/node'
-
+const base = process.env.BASE || '/vitepress/'
 export default defineConfig({
-  lang: 'en-US',
+  lang: 'zh-CN',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
 
@@ -12,6 +12,7 @@ export default defineConfig({
       '(() => { const afsefe = window.foo;\n    console.log(afsefe);})()'
     ]
   ],
+  base: base,
 
   themeConfig: {
     repo: 'vuejs/vitepress',
