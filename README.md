@@ -2,7 +2,7 @@
 
 [![Test](https://github.com/vuejs/vitepress/workflows/Test/badge.svg)](https://github.com/vuejs/vitepress/actions)
 [![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
-
+[![CI](https://github.com/zzc7211/vitepress/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/zzc7211/vitepress/actions/workflows/ci.yml)
 ---
 
 VitePress is [VuePress](http://vuepress.vuejs.org/)' spiritual successor, built on top of [vite](https://github.com/vuejs/vite).
